@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 80px;
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+}
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 25px;
+    font-size: 25px;
+    margin-top: -5px;
+    margin-left: 100px;
+
+}
+.nav div a
+{
+  text-decoration: none;
+  color: white;
+}
+.nav ul{
+    position: absolute;
+    right: 5px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav ul li a:hover
+{
+  color: #4895ef;
+}
+.swiper-container {
+    width: 100%;
+    height: 800px;
+}
+.swiper-slide
+{
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1
+{
+  background-image: url(./suratebi/DAF-Truck.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.img2
+{
+  background-image: url(./suratebi/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.img3
+{
+  background-image: url(./suratebi/1291276.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.img4
+{
+  background-image: url(./suratebi/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: local;
+}
+.img5
+{
+  background-image: url(./suratebi/5.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: local;
+}
+/*                        ჩვენ შესახებ                            */
+.ab-us
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 50px;
+  height: 600px;
+}
+
+.ab-us-image
+{
+  background-image: url(./suratebi/nhEflWp8gW0fDoti.png);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: right;
+  margin-right: 50px;
+}
+
+.ab-us-text
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ab-us-text p
+{
+  font-size: 30px;
+  width: 70%;
+  margin-right: 200px;
+}
+
+/*   x                     ჩვენ შესახებ                          x  */
+
+/*                             მთვლელი                                 */
+.counter-head
+{
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 32% 36% 32% ;
+}
+
+.counter-truck
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.counter
+{
+  padding: 20px;
+  font-size: 40px;
+  color: white;
+}
+.counter-head .counter-truck .icon
+{
+  font-size: 40px;
+  color: white;
+  
+}
+.counter-head .counter-truck h3
+{
+  position: absolute;
+  margin-top: -110px;
+  color: #3a7ca5;
+}
+.counter-head .counter-truck p
+{
+  position: absolute;
+  margin-top: 100px;
+  color: #3a7ca5;
+}
+
+.counter-head .counter-job
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-head .counter-job h3
+{
+  position: absolute;
+  margin-top: -110px;
+  color: #3a7ca5;
+}
+.counter-head .counter-job p
+{
+  position: absolute;
+  margin-top: 100px;
+  color:#3a7ca5;
+}
+
+.counter-head .counter-job .icon
+{
+  font-size: 40px;
+  color: white;
+}
+
+.counter-head .counter-country
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-head .counter-country h3
+{
+  position: absolute;
+  margin-top: -110px;
+  color: #3a7ca5;
+}
+.counter-head .counter-country p
+{
+  position: absolute;
+  margin-top: 100px;
+  color: #3a7ca5;
+}
+.counter-head .counter-country .icon
+{
+  font-size: 40px;
+  color: white;
+}
+
+/* x                         მთვლელი                             x */
+
+/*                         შეთავაზება                             */
+.offers
+{
+  width: 100%;
+}
+.offers h1
+{
+  text-align: center;
+}
+.offers .countrys
+{
+  margin-left: 150px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+.offers .countrys p
+{
+  font-size: 20px;
+  padding: 5px;
+}
+
+.offers .countrys span
+{
+  color: #fca311;
+}
+/*        x                 შეთავაზება                      x      */
+
+
+/*              footer                          */
+.section
+{
+  margin-top: 100px;
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon a
+{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  
+} 
+.icon .icons 
+{
+  padding: 0 2rem;
+}
+.icon a:hover
+{
+  color: #3a7ca5;
+}
+.created
+{
+  position: absolute;
+  margin-top: 70px; 
+}
+.created a
+{
+  text-decoration: none;
+  color: white;
+}
+.created a > span
+{
+  color: #fca311;
+}
+/*x                     footer                          x*/ 
+
+
+
+
+
+
+/*                  media           1050px         */
+@media only screen and (max-width:1050px)
+{
+  .ab-us-text p
+{
+  
+  margin-right: 0px;
+}
+}
+
+
+/*x                  media           1050px        x*/
+
+
+/*                  media           1000px         */
+@media only screen and (max-width:1000px)
+{
+  .ab-us
+  {
+    grid-template-columns: 100%;
+  }
+  .ab-us-image
+  { 
+    background-position: center;
+  }
+  .ab-us-text p
+  {
+    text-align: center;
+    margin-right: 0px;
+  }
+  .offers .countrys
+  {
+    grid-template-columns: 100%;
+  }
+}
+
+
+/*x                  media           1000px        x*/
+
+
+
+
+
+
+
+
+/*                  media          850px          */
+@media only screen and (max-width:850px)
+{
+  .offers .countrys p
+  {
+    font-size: 15px;
+  }
+}
+
+
+/*x                  media        850px            x*/
+
+
+
+
+
+/*                  media          800px          */
+@media only screen and (max-width:800px)
+{
+  .nav ul
+  {
+    visibility: hidden;
+  }
+  .ab-us-image
+  {
+    margin-left: 50px;
+  }
+}
+
+
+/*x                  media        800px            x*/
+
+
+/*                  media          710px          */
+@media only screen and (max-width:710px)
+{
+  .offers .countrys p
+  {
+    font-size: 10px;
+    
+  }
+  .offers .countrys
+  {
+    margin-left: 0px;
+  }
+  .offers .countrys
+  {
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .offers .countrys .right
+  {
+    margin-right: 0px;
+  }
+  .ab-us-image
+  {
+    
+    margin-left: 47px;
+  }
+
+}
+
+/*x                  media          710px         x*/
+/*                 media        540px            */
+@media only screen and (max-width:540px)
+{
+  .ab-us-image
+  {
+    margin-left: 0px;
+  }
+}
+/*x                  media        540px            x*/
+
+
+
+/*                 media        532px            */
+@media only screen and (max-width:532px)
+{
+  .icon a
+  {
+    font-size: 20px;
+  }
+
+  .icon .icons 
+  {
+    padding: 0 1.5rem;
+  }
+  .ab-us-image
+  {
+    width: 320px;
+    height: 200px;
+    margin-left: 100px;
+  }
+}
+/*x                  media        532px            x*/
+
+
+/*x                  media        470px            x*/
+@media only screen and (max-width:470px)
+{
+  .icon a
+  {
+    font-size: 20px;
+  }
+
+  .icon .icons 
+  {
+    padding: 0 0.8rem;
+  }
+  .offers .countrys
+  {
+    margin-left: -30px;
+    margin-top: 20px;
+  }
+  .offers .countrys .right
+  {
+    margin-right: 0px;
+  }
+  .section
+  {
+    margin-top: 50px;
+  }
+}
+/*x                  media        470px            x*/
+
+
+
+
+
+/*x                  media        450px            x*/
+@media only screen and (max-width:450px)
+{
+  .ab-us-image
+  {
+    
+    margin-left: 47px;
+  }
+  .ab-us-text p
+  {
+    font-size: 20px;
+    margin-top: -300px;
+  }
+  .counter
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-truck .icon
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-truck h3
+  {
+    font-size: 15px;
+    margin-top: -70px;
+  }
+  .counter-head .counter-truck p
+  {
+    margin-top: 70px;
+  }
+  .counter-head .counter-job .icon
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-job h3
+  {
+    font-size: 13px;
+    margin-top: -70px;
+  }
+  .counter-head .counter-job p
+  {
+    margin-top: 70px;
+  }  
+  .counter-head .counter-country .icon
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-country h3
+  {
+    font-size: 13px;  
+    margin-top: -70px;
+  }
+  .counter-head .counter-country p
+  {
+    margin-top: 70px;
+  }
+}
+/*x                  media        450px            x*/
+
+
+
+
+
+
+/*x                  media        400px            x*/
+@media only screen and (max-width:400px)
+{
+  .ab-us-image
+  {
+    
+    margin-left: 20px;
+  }
+  .ab-us-text p
+  {
+    font-size: 20px;
+    margin-top: -300px;
+  }
+  .counter
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-truck .icon
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-truck h3
+  {
+    font-size: 15px;
+    margin-top: -70px;
+  }
+  .counter-head .counter-truck p
+  {
+    margin-top: 70px;
+  }
+  .counter-head .counter-job .icon
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-job h3
+  {
+    font-size: 13px;
+    margin-top: -70px;
+  }
+  .counter-head .counter-job p
+  {
+    margin-top: 70px;
+  }  
+  .counter-head .counter-country .icon
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-country h3
+  {
+    font-size: 13px;  
+    margin-top: -70px;
+  }
+  .counter-head .counter-country p
+  {
+    margin-top: 70px;
+  }
+}
+/*x                  media        400px            x*/
+
+
+
+/*x                  media        320px            x*/
+@media only screen and (max-width:320px)
+{
+  .ab-us-image
+  {
+    
+    margin-left: 0;
+  }
+  .ab-us-text p
+  {
+    font-size: 20px;
+    margin-top: -100px;
+  }
+  .counter
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-truck .icon
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-truck h3
+  {
+    font-size: 15px;
+    margin-top: -70px;
+  }
+  .counter-head .counter-truck p
+  {
+    margin-top: 70px;
+  }
+  .counter-head .counter-job .icon
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-job h3
+  {
+    font-size: 13px;
+    margin-top: -70px;
+  }
+  .counter-head .counter-job p
+  {
+    margin-top: 70px;
+  }  
+  .counter-head .counter-country .icon
+  {
+    font-size: 20px;
+  }
+  .counter-head .counter-country h3
+  {
+    font-size: 13px;  
+    margin-top: -70px;
+  }
+  .counter-head .counter-country p
+  {
+    margin-top: 70px;
+  }
+}
+/*x                  media        320px            x*/
+
+
